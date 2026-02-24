@@ -1,13 +1,98 @@
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
 }
 
-.login-card,
-.register-card {
-    width: 400px;
-    border-radius: 15px;
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cornflowerblue;
 }
 
-.card {
-    border-radius: 15px;
+.login-container {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 8px;
+    
+}
+
+.login-container h2 {
+    text-align: center;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 8px;
+    background: #4e73df;
+    color: white;
+    border: none;
+    
+}
+
+.login-container button:hover {
+    background: #2e59d9;
+}
+
+
+.navbar {
+    background: #4e73df;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.container {
+    padding: 20px;
+}
+
+form input {
+    padding: 8px;
+    margin: 5px;
+}
+
+form button {
+    padding: 8px 15px;
+    background: #1cc88a;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #4e73df;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
 }
